@@ -34,7 +34,7 @@ abstract class BaseRelation extends Relation
      * @param QueryBuilder $builder
      * @param Model $model
      */
-    public function __construct(QueryBuilder $builder, Model $model)
+    public function __construct($builder, Model $model)
     {
         if ( ! NestedSet::isNode($model)) {
             throw new InvalidArgumentException('Model must be node.');
