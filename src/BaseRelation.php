@@ -106,10 +106,10 @@ abstract class BaseRelation extends Relation
      *
      * @return array
      */
-    public function initRelation(array $models, $relation)
+    /*public function initRelation(array $models, $relation)
     {
         return $models;
-    }
+    }*/
 
     /**
      * @param EloquentBuilder $query
